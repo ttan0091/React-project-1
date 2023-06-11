@@ -7,7 +7,7 @@ const Menu = () => {
     return (
         <>
             <p><a href="home"/>Home</p>
-            <p><a href="wgpt3"/>What is GPT3?</p>
+            <p><a href="wgpt3"/>What is GPT-4?</p>
             <p><a href="possibility"/>Open AI</p>
             <p><a href="features"/>Case Studies</p>
             <p><a href="blog"/>Library</p>
@@ -22,8 +22,10 @@ const Navbar = () => {
 
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
-                    <img src={logo} alt="logo"/>
+                    <p className={"gpt3__navbar-logo-font"}>GPT-4</p>
+                    {/*<img src={logo} alt="logo"/>*/}
                 </div>
+
                 <div className="gpt3__navbar-links_container">
                     <Menu/>
                 </div>
