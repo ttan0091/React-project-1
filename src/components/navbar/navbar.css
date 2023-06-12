@@ -68,6 +68,9 @@
     outline: none;
     cursor: pointer;
 }
+.gpt3__navbar-sign button:hover{
+    background: #FF5E3A;
+}
 
 .gpt3__navbar-menu {
     margin-left: 1rem;
