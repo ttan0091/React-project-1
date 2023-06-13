@@ -1,1 +1,1 @@
-# test
+This is a project using html, css, js and React.The design is simultaneously compatible with devices of different resolutions, including PCs, iPads, and iPhones of various sizes. The navbar is accessable, which will conduct to the corresponding part of the page. Other links is not avaliable for
