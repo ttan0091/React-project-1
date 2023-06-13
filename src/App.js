@@ -11,11 +11,11 @@ const App = () => {
                 <Header/>
             </div>
             <Brand/>
-            <Features/>
             <WhatGPT3/>
+            <Features/>
             <Possibility/>
-            <Blog/>
             <CTA/>
+            <Blog/>
             <Footer/>
 
 

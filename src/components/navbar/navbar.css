@@ -24,7 +24,7 @@
     font-weight: 900;
     color: white;
     font-family: var(--font-family);
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .gpt3__navbar-links_container {

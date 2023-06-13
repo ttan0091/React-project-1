@@ -6,11 +6,11 @@ import {RiCloseLine, RiMenu3Line} from "react-icons/ri";
 const Menu = () => {
     return (
         <>
-            <p><a href="home"/>Home</p>
-            <p><a href="wgpt3"/>What is GPT-4?</p>
-            <p><a href="possibility"/>Open AI</p>
-            <p><a href="features"/>Case Studies</p>
-            <p><a href="blog"/>Library</p>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#wgpt3">What is GPT3?</a></p>
+            <p><a href="#possibility">Open AI</a></p>
+            <p><a href="#features">Case Studies</a></p>
+            <p><a href="#blog">Library</a></p>
         </>
     )
 }
@@ -22,7 +22,7 @@ const Navbar = () => {
 
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
-                    <p className={"gpt3__navbar-logo-font"}>GPT-4</p>
+                    <p className="gpt3__navbar-logo-font">GPT-4</p>
                     {/*<img src={logo} alt="logo"/>*/}
                 </div>
 
